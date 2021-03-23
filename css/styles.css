@@ -58,3 +58,8 @@ p {
 .learn {
 	background-color:#9A6D00;  
 }
+
+.email {
+	align-content: center;
+	align-items: center;
+}
