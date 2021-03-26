@@ -9,21 +9,23 @@
     	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     	<link href="css/styles.css" rel="stylesheet" type="text/css">
 		<title>Ally's Restaurant</title>
+		
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=TRACKING_ID"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'G-14P5NTY9R6');
+		</script>
   	</head>
 	
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=TRACKING_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-14P5NTY9R6');
-</script>
+	
 	
   <body>
 	 <header>
       <div class="text-center">
-      <img class ="logo" src="images/logo.png" class="rounded" class="img-fluid mx-auto d-block" alt="logo"/>
+      <img src="images/logo.png" class ="logo rounded img-fluid mx-auto d-block" alt="logo"/>
       </div>
     </header>
 	  
@@ -63,7 +65,7 @@
   <p class="lead">&nbsp;We are currently limiting dining experiences to 90 minutes.&nbsp;</p>
   <p class="lead">Thank you in advance for understanding.&nbsp;</p>
 <hr class="my-4">
-  <a href="index.html" class="btn btn-primary btn-lg learn" href="#" role="button">Book a Table</a>
+  <a href="index.html" class="btn btn-primary btn-lg learn" role="button">Book a Table</a>
 </div>
 
 	<main>
@@ -118,7 +120,7 @@
 						<p>	<i class="fas fa-home"> Brunch
 						Sat & Sun: 11:00 AM – 2:30 PM</i>
 						</p> 
-					</p>
+	
 				</div>
 				<div class="col-md-3 mx-auto mb-4">
 					<h5 class="text-uppercase font-weight-bold">Other Venues</h5>
@@ -139,7 +141,7 @@
 				<div class="col-md-3 mx-auto mb-4">
 					<h5 class="text-uppercase font-weight-bold">Become a member</h5>
 					<p>Subscribe to our weekly newsletters to never miss new items on the menu!</p>
-					<form action="">
+					<form action="button">
 						<input type="email" name="txtEmail" id="txtEmail" value="" placeholder="example@gmail.com">
 						<input type="submit" value="subscribe">
 					</form>
